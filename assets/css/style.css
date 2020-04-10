@@ -7,8 +7,22 @@
 }
 
 #portfolioBox {
+    padding: 15px;
     background-color: #ffffff;
 }
+
+#portBoxheader {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#indBoxheader {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
 
 body {
     background-image: url("../images/dust_scratches.png");
@@ -17,13 +31,30 @@ body {
 
 h5 {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+hr {
+    background-color: gray;
+    height: 1px;
+    width: 100%;
+    margin: 10px 15px 30px 15px;
 }
 
 .navbar {
     border-bottom: 2px solid gray;
 }
 
-@media screen and (min-width: 500px) {
+.blueboxes {
+    position: relative;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 200px;
+    bottom: 54px;
+    padding: 10px 0 5px 0;
+}
+
+@media screen and (max-width: 560px) and (min-width: 1056px) {
     #header {
         margin-left: 188px;
     }
