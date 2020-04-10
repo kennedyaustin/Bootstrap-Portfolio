@@ -68,14 +68,19 @@ hr {
     padding: 10px 0 5px 0;
 }
 
+.test-image{
+    width:100%;
+    height:auto;
+    min-width:200px;
+  }
+
 #sticky-footer {
     border-top: 4px solid #4aaaa5;
 }
 
-@media screen and (max-width: 580px) {
-    #cat {
-        width: 300px;
-        margin: 0 0 25px 45px;
-        height: auto;
+@media screen and (max-width:992px) and (min-width:768px) {
+    p {
+        margin-left: 50px;
+        width: 100%;
     }
 }
