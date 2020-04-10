@@ -4,25 +4,35 @@
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
+    margin-left: 60px;
 }
 
 #portfolioBox {
     padding: 15px;
     background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-bottom: 175px;
 }
 
 #portBoxheader {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
 }
 
 #indBoxheader {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    margin: 0 5px 0 5px;
 }
 
+#cat {
+    margin-left: 15px;
+}
+
+#text {
+    margin: 5px 0 0 13px;
+}
 
 body {
     background-image: url("../images/dust_scratches.png");
@@ -30,7 +40,7 @@ body {
 }
 
 h5 {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #ffffff;
 }
 
@@ -54,8 +64,6 @@ hr {
     padding: 10px 0 5px 0;
 }
 
-@media screen and (max-width: 560px) and (min-width: 1056px) {
-    #header {
-        margin-left: 188px;
-    }
+#sticky-footer {
+    border-top: 4px solid #4aaaa5;
 }
