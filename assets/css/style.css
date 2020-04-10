@@ -5,3 +5,19 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
 }
+
+.body {
+    background-image: url(../images/dust_scratches.png) !important;
+    background-size: cover;
+    background-color: #4aaaa5;
+}
+
+.navbar {
+    border-bottom: 2px solid gray;
+}
+
+@media screen and (min-width: 500px) {
+    #header {
+        margin-left: 188px;
+    }
+}
