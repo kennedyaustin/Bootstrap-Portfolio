@@ -6,10 +6,17 @@
     font-weight: bolder;
 }
 
-.body {
-    background-image: url(../images/dust_scratches.png) !important;
+#portfolioBox {
+    background-color: #ffffff;
+}
+
+body {
+    background-image: url("../images/dust_scratches.png");
     background-size: cover;
-    background-color: #4aaaa5;
+}
+
+h5 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .navbar {
