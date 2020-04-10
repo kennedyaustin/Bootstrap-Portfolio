@@ -4,7 +4,7 @@
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
-    margin-left: 60px;
+    margin-left: 75px;
 }
 
 #portfolioBox {
@@ -55,6 +55,9 @@ hr {
     border-bottom: 2px solid gray;
 }
 
+ {
+}
+
 .blueboxes {
     position: relative;
     background-color: #4aaaa5;
@@ -66,4 +69,12 @@ hr {
 
 #sticky-footer {
     border-top: 4px solid #4aaaa5;
+}
+
+@media screen and (max-width: 580px) {
+    #cat {
+        width: 300px;
+        margin: 0 0 25px 45px;
+        height: auto;
+    }
 }
