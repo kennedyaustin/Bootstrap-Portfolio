@@ -30,7 +30,8 @@
     margin-left: 15px;
 }
 
-.testimage {
+/* This will make the images responsive on the page */
+.myimage {
     width:100%;
     height:auto;
     min-width:200px;
@@ -69,7 +70,7 @@ hr {
     position: relative;
     background-color: #4aaaa5;
     text-align: center;
-    width: 200px;
+    width: 100%;
     bottom: 54px;
     padding: 10px 0 5px 0;
 }
